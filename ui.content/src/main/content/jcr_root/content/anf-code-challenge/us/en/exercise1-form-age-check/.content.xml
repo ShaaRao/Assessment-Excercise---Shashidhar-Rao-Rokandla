@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2022-09-22T14:05:46.326+05:30"
+        cq:lastModifiedBy="admin"
+        cq:template="/conf/anf-code-challenge/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Exercise1 Form Age Check"
+        sling:resourceType="anf-code-challenge/components/page">
+        <root
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="anf-code-challenge/components/container">
+            <container
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="anf-code-challenge/components/container">
+                <title
+                    jcr:lastModified="{Date}2022-09-22T13:00:56.563+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Test Form"
+                    sling:resourceType="anf-code-challenge/components/title"/>
+                <container
+                    jcr:lastModified="{Date}2022-09-22T14:05:46.317+05:30"
+                    jcr:lastModifiedBy="admin"
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="anf-code-challenge/components/container"
+                    id="userForm"
+                    layout="responsiveGrid">
+                    <container
+                        jcr:created="{Date}2022-09-22T12:57:24.462+05:30"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2022-09-22T14:05:31.870+05:30"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="anf-code-challenge/components/form/container"
+                        action="/content/usergenerated/anf-code-challenge/us/en/exercise1-form-age-check/cq-gen1663831644486/"
+                        actionType="foundation/components/form/actions/store">
+                        <text
+                            jcr:created="{Date}2022-09-22T12:57:32.940+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-22T12:59:45.469+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Firstname:  "
+                            sling:resourceType="anf-code-challenge/components/form/text"
+                            name="firstName"
+                            rows="2"
+                            type="text"/>
+                        <text_1519983741
+                            jcr:created="{Date}2022-09-22T12:57:40.460+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-22T12:59:56.553+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Lastname:   "
+                            sling:resourceType="anf-code-challenge/components/form/text"
+                            name="lastName"
+                            rows="2"
+                            type="text"/>
+                        <text_1040979171
+                            jcr:created="{Date}2022-09-22T12:57:58.509+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-22T13:04:50.198+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            jcr:title="Age:        "
+                            sling:resourceType="anf-code-challenge/components/form/text"
+                            constraintMessage="Only numeric value is accepted"
+                            name="age"
+                            rows="2"
+                            type="number"/>
+                        <country
+                            jcr:created="{Date}2022-09-22T12:58:13.716+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-22T13:12:19.773+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="anf-code-challenge/components/form/country"/>
+                        <button
+                            jcr:created="{Date}2022-09-22T12:58:17.835+05:30"
+                            jcr:createdBy="admin"
+                            jcr:lastModified="{Date}2022-09-22T13:01:17.934+05:30"
+                            jcr:lastModifiedBy="admin"
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="anf-code-challenge/components/form/button"
+                            name="submit"
+                            type="submit"/>
+                    </container>
+                </container>
+            </container>
+        </root>
+    </jcr:content>
+</jcr:root>

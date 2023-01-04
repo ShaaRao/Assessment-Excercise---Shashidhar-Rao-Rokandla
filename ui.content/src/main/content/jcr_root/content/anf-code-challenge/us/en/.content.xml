@@ -79,4 +79,8 @@
             </container>
         </root>
     </jcr:content>
+    
+ <exercise1-form-age-check/>
+    <newsfeed-exercise2/>
+   
 </jcr:root>
